@@ -56,7 +56,7 @@ Note: Ensure that the .env file is added to your .gitignore so that sensitive da
    ```bash
    uvicorn main:app --reload
 
-Your API documentation will be accessible at http://127.0.0.1:8000/docs.
+      Your API documentation will be accessible at http://127.0.0.1:8000/docs.
 
 
    
