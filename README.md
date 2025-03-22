@@ -37,7 +37,7 @@ CodeMentor/ ├── backend/ │ ├── api/ │ │ └── routes.py # 
 - create:
    ```bash
    python -m venv venv
-- activate
+- activate:
    ``bash
-   source venv/bin/activate
+    source venv/bin/activate
 
