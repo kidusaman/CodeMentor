@@ -49,13 +49,15 @@ CodeMentor/ ├── backend/ │ ├── api/ │ │ └── routes.py # 
    ```bash
    pip install -r requirements.txt
 4.**Create a .env file in the backend directory:**
-   Add the following (replace with your actual API key):
+Add the following (replace with your actual API key):
       ```bash
       OPENAI_API_KEY=sk-your_actual_api_key_here
+Note: Ensure that the .env file is added to your .gitignore so that sensitive data is not committed.
 5. **Run the FastAPI server:**
-      ```bash
+
+       ```bash
       uvicorn main:app --reload
-  
+
 
    
 
