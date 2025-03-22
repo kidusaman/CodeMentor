@@ -49,8 +49,8 @@ CodeMentor/ ├── backend/ │ ├── api/ │ │ └── routes.py # 
    ```bash
    pip install -r requirements.txt
 4.**Create a .env file in the backend directory:**
-    ```bash
-    OPENAI_API_KEY=sk-your_actual_api_key_here
+  ```bash
+  OPENAI_API_KEY=sk-your_actual_api_key_here
 Note: Ensure that the .env file is added to your .gitignore so that sensitive data is not committed.
 5. **Run the FastAPI server:**
    ```bash
