@@ -46,7 +46,7 @@ CodeMentor/ ├── backend/ │ ├── api/ │ │ └── routes.py # 
         ```bash
         source venv/bin/activate
 3. **Install the Python dependencies:**
-   '''bash
+   ```bash
    pip install -r requirements.txt
 
 
