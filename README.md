@@ -30,32 +30,34 @@ CodeMentor/ ├── backend/ │ ├── api/ │ │ └── routes.py # 
 - Node.js and npm (for frontend)
 - Git
 
-### Backend Setup
+## 🔧 Backend Setup
 
-1. **Navigate to the backend directory:**
+```bash
+# Navigate to the backend directory
+cd backend
 
-   ```bash
-   cd backend
-2. **Create and activate a virtual environment (optional but recommended):**
-   - create:
+# Create a virtual environment
+python -m venv venv
 
-      ```bash
-      python -m venv venv
+# Activate the virtual environment
+# On macOS/Linux:
+source venv/bin/activate
 
-   - Activate (macOS/Linux):
-        ```bash
-        source venv/bin/activate
-3. **Install the Python dependencies:**
-   ```bash
-   pip install -r requirements.txt
-4.**Create a .env file in the backend directory:**
-     ```env
-     OPENAI_API_KEY=sk-your_actual_api_key_here
-Note: Ensure that the .env file is added to your .gitignore so that sensitive data is not committed.
-5. **Run the FastAPI server:**
-   ```bash
-   uvicorn main:app --reload
-Your API documentation will be accessible at http://127.0.0.1:8000/docs.
+# On Windows:
+venv\Scripts\activate
+
+# Install Python dependencies
+pip install -r requirements.txt
+
+# Create a .env file in the backend directory
+# (replace with your actual OpenAI API key)
+echo "OPENAI_API_KEY=sk-your_actual_api_key_here" > .env
+
+# Run the FastAPI server
+uvicorn main:app --reload
+
+# Your API docs should now be available at:
+# http://127.0.0.1:8000/docs
 
 
    
