@@ -19,25 +19,45 @@ CodeMentor is a full-stack application that leverages the OpenAI API to offer a 
 
 CodeMentor/ ├── backend/ │ ├── api/ │ │ └── routes.py # API endpoint definitions │ ├── models/ │ │ └── schemas.py # Data models using Pydantic │ ├── services/ │ │ └── openai_service.py # Business logic and OpenAI integration │ ├── utils/ │ │ └── logger.py # Logging utilities │ ├── config.py # Configuration (loads env variables) │ ├── main.py # FastAPI application entry point │ ├── requirements.txt # Python dependencies │ ├── Procfile # (Optional) Deployment command │ └── .gitignore # Ignores compiled files and sensitive data │ ├── frontend/ │ ├── public/ │ │ └── index.html # HTML template with root div │ ├── src/ │ │ ├── components/ │ │ │ ├── CodeConverter.js # Code converter component │ │ │ ├── Debugger.js # Code debugger component │ │ │ ├── CodeQualityChecker.js # Code quality checker component │ │ │ └── CodeDisplay.js # Syntax-highlighted code display │ │ ├── services/ │ │ │ └── api.js # API helper functions for backend communication │ │ ├── App.js # Main React component with navigation │ │ ├── index.js # React app entry point │ │ └── theme.js # (Optional) Custom Material-UI theme │ ├── package.json # Node dependencies and project scripts │ ├── package-lock.json # Lock file for Node dependencies │ └── .gitignore # Ignores node_modules, build artifacts, etc. │ └── README.md # This file
 
-## Setup and Installation
+---
 
-### Prerequisites
+## ⚙️ Setup and Installation
 
-- Python 3.10+ (for backend)
-- Node.js and npm (for frontend)
-- Git
+### ✅ Prerequisites
 
-### Backend Setup
+- Python 3.10+ (for backend)  
+- Node.js & npm (for frontend)  
+- Git  
 
-1. **Navigate to the backend directory:**
+---
 
-   ```bash
-   cd backend
-2. Create and activate a virtual environment (optional but recommended):
-- create:
-  ```bash
-   python -m venv venv
-- activate:
-   ``bash
-    source venv/bin/activate
+## 🔧 Backend Setup
+
+```bash
+# Navigate to backend folder
+cd backend
+
+# Create and activate a virtual environment (recommended)
+python -m venv venv
+
+# macOS/Linux:
+source venv/bin/activate
+
+# Windows:
+venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Create a .env file and add your OpenAI key
+# File: .env
+OPENAI_API_KEY=sk-your_actual_api_key_here
+
+# Note: Ensure .env is in your .gitignore
+
+# Run the FastAPI server
+uvicorn main:app --reload
+
+# Visit: http://127.0.0.1:8000/docs to test the API
+
 
