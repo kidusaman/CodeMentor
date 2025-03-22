@@ -41,5 +41,9 @@ CodeMentor/ ├── backend/ │ ├── api/ │ │ └── routes.py # 
 
    ```bash
    cd backend
+   - create:
+
+   ```bash
+   cd backend
 
 
