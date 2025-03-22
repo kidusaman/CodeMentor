@@ -21,43 +21,25 @@ CodeMentor/ ├── backend/ │ ├── api/ │ │ └── routes.py # 
 
 ---
 
-## ⚙️ Setup and Installation
 
-### ✅ Prerequisites
+## Setup and Installation
 
-- Python 3.10+ (for backend)  
-- Node.js & npm (for frontend)  
-- Git  
+### Prerequisites
 
----
+- Python 3.10+ (for backend)
+- Node.js and npm (for frontend)
+- Git
 
-## 🔧 Backend Setup
+### Backend Setup
 
-```bash
-# Navigate to backend folder
-cd backend
+1. **Navigate to the backend directory:**
 
-# Create and activate a virtual environment (recommended)
-python -m venv venv
+   ```bash
+   cd backend
+2. **Create and activate a virtual environment (optional but recommended):**
+   - create:
 
-# macOS/Linux:
-source venv/bin/activate
-
-# Windows:
-venv\Scripts\activate
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Create a .env file and add your OpenAI key
-# File: .env
-OPENAI_API_KEY=sk-your_actual_api_key_here
-
-# Note: Ensure .env is in your .gitignore
-
-# Run the FastAPI server
-uvicorn main:app --reload
-
-# Visit: http://127.0.0.1:8000/docs to test the API
+   ```bash
+   cd backend
 
 
