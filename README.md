@@ -39,11 +39,12 @@ CodeMentor/ ├── backend/ │ ├── api/ │ │ └── routes.py # 
 2. **Create and activate a virtual environment (optional but recommended):**
    - create:
 
-   ```bash
-   cd backend
-   - create:
+      ```bash
+      python -m venv venv
 
-   ```bash
-   cd backend
+   - Activate (macOS/Linux):
+        ```bash
+        source venv/bin/activate
+
 
 
