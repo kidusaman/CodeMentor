@@ -73,6 +73,23 @@ CodeMentor/ ├── backend/ │ ├── api/ │ │ └── routes.py # 
 
 ## Deployment
 
+### Backend Development
+For free deployment, consider using Railway or Render. Ensure you:
+-Include a Procfile (e.g., web: uvicorn main:app --host=0.0.0.0 --port=${PORT}).
+Set environment variables (like OPENAI_API_KEY) via the hosting platform’s dashboard.
+-Include a Procfile (e.g., web: uvicorn main:app --host=0.0.0.0 --port=${PORT}).
+Set environment variables (like OPENAI_API_KEY) via the hosting platform’s dashboard.
+### Frontend Deployment
+Deploy your React app on free platforms like Vercel or Netlify:
+- Run npm run build to create a production build.
+- Connect your repository and deploy via the platform’s instructions.
+### Connecting Frontend and Backend
+- Update the API endpoint in your frontend (in src/services/api.js) to point to your deployed backend URL.
+- Also, ensure your FastAPI app has proper CORS settings to allow requests from your frontend’s domain.
+## Usage
+- **Code Converter:** Enter code, select source and target languages, and click “Convert” to see the transformed code.
+- **Debugger:** Paste code with errors and click “Debug” to receive detailed error explanations.
+- **Code Quality Checker:** Paste your code and click “Check Quality” to get analysis and improvement suggestions.
 
 
 
