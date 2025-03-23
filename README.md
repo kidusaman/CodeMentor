@@ -53,6 +53,24 @@ CodeMentor/ ├── backend/ │ ├── api/ │ │ └── routes.py # 
 5. **Run the FastAPI server:**
     ```sh
    npm install
+### Frontend Setup
+
+1. **Navigate to the backend directory:**
+
+   ```bash
+   cd frontend
+
+
+### Frontend
+2. **Install the Python dependencies:**
+   ```env
+   npm install
+
+
+3. **Start the development server:**
+   ```sh
+   npm start
+
 
 
    
