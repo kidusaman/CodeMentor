@@ -1,6 +1,6 @@
 # CodeMentor
 
-[Live Demo]([https://your-frontend.vercel.app](https://code-mentor-otjsuf7sq-kidus-projects-a65c36b6.vercel.app)  
+[Live Demo]([https://your-frontend.vercel.app](https://code-mentor-otjsuf7sq-kidus-projects-a65c36b6.vercel.app )  
 *Experience the live version of CodeMentor, a full-stack application for code conversion, debugging, and quality checking.*
 
 CodeMentor is a full-stack application that leverages the OpenAI API to offer a code converter, debugger, and code quality checker. It’s built with a FastAPI backend and a React frontend, showcasing full-stack development skills, API integration, and modern UI design with Material-UI.
