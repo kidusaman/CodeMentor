@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://127.0.0.1:8000/api';
+const API_URL = 'https://codementor-production-3878.up.railway.app/api';
 
 export const convertCode = async (code, sourceLanguage, targetLanguage) => {
   const response = await axios.post(`${API_URL}/convert`, {
