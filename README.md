@@ -98,6 +98,11 @@ Deploy your React app on free platforms like Vercel or Netlify:
 - **Code Converter:** Enter code, select source and target languages, and click “Convert” to see the transformed code.
 - **Debugger:** Paste code with errors and click “Debug” to receive detailed error explanations.
 - **Code Quality Checker:** Paste your code and click “Check Quality” to get analysis and improvement suggestions.
+## Notes & Limitations
+
+This demo integrates with the OpenAI API, which enforces usage limits and quotas on its free tier. As a result, some features might experience rate-limiting or temporary unavailability during periods of high usage. In a production environment, these limitations can be addressed by upgrading to an appropriate API plan.
+
+This project is intended to showcase full-stack development skills and API integration. The limitations noted above are inherent to the free tier of the API and do not reflect the quality or functionality of the underlying application.
 
 
 
