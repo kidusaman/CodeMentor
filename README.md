@@ -75,9 +75,9 @@ CodeMentor/ ├── backend/ │ ├── api/ │ │ └── routes.py # 
 
 ### Backend Development
 For free deployment, consider using Railway or Render. Ensure you:
--Include a Procfile (e.g., web: uvicorn main:app --host=0.0.0.0 --port=${PORT}).
-Set environment variables (like OPENAI_API_KEY) via the hosting platform’s dashboard.
--Include a Procfile (e.g., web: uvicorn main:app --host=0.0.0.0 --port=${PORT}).
+   - Include a Procfile (e.g., web: uvicorn main:app --host=0.0.0.0 --port=${PORT}).
+   - Set environment variables (like OPENAI_API_KEY) via the hosting platform’s dashboard.
+   -Include a Procfile (e.g., web: uvicorn main:app --host=0.0.0.0 --port=${PORT}).
 Set environment variables (like OPENAI_API_KEY) via the hosting platform’s dashboard.
 ### Frontend Deployment
 Deploy your React app on free platforms like Vercel or Netlify:
